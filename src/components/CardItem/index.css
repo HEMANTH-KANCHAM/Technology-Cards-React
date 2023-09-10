@@ -1,0 +1,42 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+.card-item-container {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+}
+
+.card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  height: 80px;
+  width: 80px;
+  align-self: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .card-item-container {
+    width: 350px;
+    margin-right: 30px;
+  }
+}
